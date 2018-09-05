@@ -13,6 +13,6 @@ Fig. 14b <br/>
 
 MA_SAT_RICE_AWS_monthly(:,1) year  <br/>
 MA_SAT_RICE_AWS_monthly(:,2) month  <br/>
-MA_SAT_RICE_AWS_monthly(:,3) RICE SAT monthly averages  <br/>
-MA_SAT_RICE_AWS_monthly(:,4) RICE SAT anomaly with 'climatology' removed. Note that it is not a realy <br/>
+MA_SAT_RICE_AWS_monthly(:,5) RICE SAT monthly averages  <br/>
+MA_SAT_RICE_AWS_monthly(:,6) RICE SAT anomaly with 'climatology' removed. Note that it is not a realy <br/>
 climatolgy that is removed as the AWS record is short <br/>
