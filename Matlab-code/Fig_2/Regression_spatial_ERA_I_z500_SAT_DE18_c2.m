@@ -93,7 +93,7 @@ datevalue=dayssince111+datenum(1900,1,1);
 
 if strcmp(name,'2mT')==1
     % ECMWF ERA-Inerim (Dee et al. 2011)
-    % Monthly means of dail means
+    % Monthly means of daily means
     % surface 2mT
     
     name_c='ERA_int_monthly_2m_T.nc';
@@ -103,14 +103,14 @@ if strcmp(name,'2mT')==1
     letter='a';
     lat1=-90;
     lat2=-20; 
-    label_1='°C s.d.^-^1';
+    label_1='Â°C s.d.^-^1';
  
 
 
  
  elseif strcmp(name,'z500')==1 && strcmp(season,'annual')==1
     % ECMWF ERA-Inerim (Dee et al. 2011)
-    % Monthly means of dail means
+    % Monthly means of daily means
     % geopotentail 500 hPa
     
     name_c='ERA_int_monthly_z500_2.nc'; 
