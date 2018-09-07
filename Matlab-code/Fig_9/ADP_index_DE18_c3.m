@@ -8,7 +8,7 @@
 % Ref paper: Yuan 2004
 % ENSO-related impacts on Antarctic sea ice: a synthesis of
 % phenomenon and mechanisms
-% Antarctic Science 16 (4): 415–425 (2004)
+% Antarctic Science 16 (4): 415â€“425 (2004)
 %%%%%%%%%%%%%%
 % subfunctions
 %
@@ -164,4 +164,21 @@ export_fig('-png','-nocrop','-painters', '-depsc','-opengl', '-r150',savefilenam
 %% save index
         savefilename =strcat( 'C:\PHD\matlab_storage_of_output_files\Ma_ADP_index_HadISST_SIC',num2str(yr_s),'_',num2str(yr_e),'.mat'); 
         save(savefilename,'MA_ADP_save');
-%%%%%%%%%%%%%%%%%%%%%%%%%%              
+%%%%%%%%%%%%%%%%%%%%%%%%%%  
+%% 
+
+X=detrend(MA_ADP_save((1:33),2));
+
+load('C:\PHD\matlab_storage_of_output_files\RICE_combined_Deep_1213B_c19.mat'); % Winstrup 2017 May age-scale
+Y=detrend(MA_save((80:112),2));
+
+%correlation
+%  factor_nr
+[r,p]=corrcoef_df(X,Y);
+rp=[r(2),p(2)]
+p_level(p(2))
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
