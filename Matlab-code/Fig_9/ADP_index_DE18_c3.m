@@ -12,8 +12,10 @@
 %%%%%%%%%%%%%%
 % subfunctions
 %
-%*keep_var.m            UoW online archive Atmospheric Science
-%*annual_mean_DE.m      DE
+%* keep_var.m            UoW online archive Atmospheric Science
+%* annual_mean_DE.m      DE
+%* p_level.m             DE
+%* corrcoef_df.m   UoW Steig
 %%%%%%%%%%%%%%%
 clear all
 close all
