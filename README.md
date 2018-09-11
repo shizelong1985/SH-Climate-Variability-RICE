@@ -1,1 +1,1 @@
-# SH-Climate-Variability-RICE <br /> Matlab code for figs <br /> in prep.
+# SH-Climate-Variability-RICE <br /> Matlab code for figs <br />
