@@ -1,2 +1,2 @@
-Fig. 7 
+Fig. 7 </br>
 Precip. bias
